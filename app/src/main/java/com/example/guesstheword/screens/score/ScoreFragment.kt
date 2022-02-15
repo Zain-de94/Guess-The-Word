@@ -1,12 +1,11 @@
 package com.example.guesstheword.screens.score
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.navigation.fragment.NavHostFragment.findNavController
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.guesstheword.R
@@ -14,7 +13,6 @@ import com.example.guesstheword.databinding.FragmentScoreBinding
 
 
 class ScoreFragment : Fragment() {
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
